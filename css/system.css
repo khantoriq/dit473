@@ -1,0 +1,64 @@
+/* Universal Selector */
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Name Selector */
+body{
+background-color: red;    
+}
+/* Id Selector */
+#admin-box{
+background-color: brown;
+width: 50%;
+margin: 100px auto;
+text-align: center;
+padding: 50px;
+border-radius: 10px;
+color: black;
+}
+/* descendent selector */
+#admin-box h1 {
+font-size: 35px;
+text-transform: uppercase;
+}
+/* Grouping Selector */
+input,
+label {
+display: block;
+width: 70%;
+margin: 5px auto;
+}
+label {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+input {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 17px;
+    outline: 0;
+    }
+}
+input[type="submit"]{
+    margin-top: 20px;
+    transition: ease-in-out 0.8s;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: maroon;
+    border: 1px solid black;
+}
+input::placeholder{
+    color: black;
+}
+p {
+    font-size: 17px;
+}
+p a{
+    color: red;
+    text-decoration: none;
+}
